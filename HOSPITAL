@@ -1,0 +1,59 @@
+//Hospital Julio C. Perrando - Av. 9 de Julio 1100 · 0362 444-2399
+//Menú:
+//1. Listar Doctores.
+//2. Registrar un nuevo paciente.
+//3. Actualizar información personal de un paciente.
+//4. Consultar el historial médico de un paciente.
+//5. Nuevo historial para un paciente. 
+//6. Guardar Historial de pacientes en archivo 
+//7. Cargar Historial de pacientes desde archivo 
+//8. Salir.
+import java.util.Scanner;
+
+public class HOSPITAL {
+    
+    public static void main(String[] args) {
+         
+       Scanner sn = new Scanner(System.in);
+       var opcion;      // Guardo las opciones de usuario 
+        
+       while(!salir){
+            
+           System.out.println("1. Listar Doctores");
+           System.out.println("2. Registrar un nuevo paciente");
+           System.out.println("3. Actualizar un nuevo paciente");
+           System.out.println("4. Consultar el historial médico de un paciente");
+           System.out.println("5 - Nuevo historial para un paciente");
+           System.out.println("6 - Cargar historial de paciente desde archivo");
+           System.out.println("7 - Salir");
+           System.out.println("Escribe una de las opciones");
+           opcion = sn.nextInt();
+            
+       }
+        
+
+     
+}   //LISTAR DOCTORES
+private String id;
+	private String Nombre;
+	private String DNI;
+	private String Especialidad;
+	
+	public DOCTORES(String id, String Nombre , int DNI, String Especialidad) {
+		this.id = id;
+		this.Nombre = Nombre;
+		this.Especialidad = Especialidad;
+	}
+	// REGISTRAR PACIENTES
+    private String id;
+	private String Telefono;
+	private String Grupo Tipo de Sangre;
+	private String ;
+	public Paciente(int Teléfono,  String Tipo de Sangre) {
+		super();
+		this.Telefono = Telefono;
+		this.Tipo de sangre = Tipo de sangre,
+		
+	}
+
+}
